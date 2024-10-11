@@ -5,3 +5,10 @@
 .topheaderfont {
   font-size: 13px;
 }
+
+@media(max-width: 992px) {
+  .hello {
+      display: none;
+  }
+
+}

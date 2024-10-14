@@ -23,7 +23,7 @@ export default function NavbarMain() {
                     <Col xs={3} className="d-flex justify-content-end fs-2">
                     <FontAwesomeIcon icon={faBars} />
                     </Col>
-                    <Col className='hello'>
+                    <Col className='navbar_adjust'>
                         <Nav className='d-flex justify-content-center gap-3 fw-bold pt-4'>
                             <Nav.Link className='text-decoration-none text-white' href="#">CATEGORY</Nav.Link>
                             <Nav.Link className='text-decoration-none text-white' href="#">BEST DEALS</Nav.Link>

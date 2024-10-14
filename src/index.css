@@ -11,7 +11,7 @@
 /* navbarmain */
 
 @media(max-width: 992px) {
-  .hello {
+  .navbar_adjust {
       display: none;
   }
 
@@ -26,7 +26,7 @@
 /* Todaysselection */
 
 .productimageheight{
-  height: 250px;
+  height: 225px;
   object-fit: contain;
 }
 
@@ -34,4 +34,19 @@
 
 .product:hover{
     box-shadow: 1px 1px 5px rgb(187, 187, 187);
+}
+
+/* Advertisementbanner */
+
+.Learnmore_image{
+  height: 300px;
+}
+
+@font-face {
+  font-family: Qwitcher_bold;
+  src: url('./Fonts/QwitcherGrypen-Bold.ttf');
+}
+
+.Qwitcher_bold{
+  font-family: Qwitcher_bold;
 }

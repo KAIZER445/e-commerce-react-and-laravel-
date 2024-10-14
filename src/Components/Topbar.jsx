@@ -8,7 +8,7 @@ export default function Topbar() {
         <div>
             <div className="d-flex justify-content-between align-items-center secondarycolor px-5 py-2 topheaderfont text-white">
                 <div className="d-flex align-items-center">
-                    <div className="border-end pe-4 hello">
+                    <div className="border-end pe-4 navbar_adjust">
                         <FontAwesomeIcon icon={faPhone} />
                         <span className="ps-2">Phone: +92 207 823 7756</span>
                     </div>

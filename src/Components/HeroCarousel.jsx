@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import corouselimages from '../images/digital-online-shopping-tech-background_332666-36.avif'
+import corouselimages from '../images/banner (2).jpg'
 
 export default function HeroCarousel() {
   return (

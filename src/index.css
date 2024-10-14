@@ -20,5 +20,18 @@
 /* herocarousel */
 
 .imagefit-corousel {
-  height: 500px;
+  height: 400px;
+}
+
+/* Todaysselection */
+
+.productimageheight{
+  height: 250px;
+  object-fit: contain;
+}
+
+/* allproducts */
+
+.product:hover{
+    box-shadow: 1px 1px 5px rgb(187, 187, 187);
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from 'react-bootstrap';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import logo01 from '../images/logo-1.png';
 import Nav from 'react-bootstrap/Nav';
 
@@ -10,20 +11,19 @@ export default function NavbarMain() {
         <nav className='bg-dark text-white'>
             <Container>
                 <Row className='align-items-center py-3'>
-                    <Col xs={4} className="fs-4">
-                        <FontAwesomeIcon icon={faBars} />
+                    <Col xs={3}>
+                    <img src={logo01} alt="Logo" className='img-fluid' />
                     </Col>
-                    <Col xs={4} className="d-flex justify-content-center">
-                        <img src={logo01} alt="Logo" className='img-fluid' />
+                    <Col xs={6} className="d-flex justify-content-center">
+                        <div className='border border-1 border-white bg-transparent rounded-2 overflow-hidden w-100'>
+                            <input type="text" className='border-0 bg-transparent py-2 w-75 text-white px-2'/>
+                            <button className='bg-white text-dark border-0 p-2 w-25'><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
+                        </div>
                     </Col>
-                    <Col xs={4} className="d-flex justify-content-end">
-                        <button
-                            type="button"
-                            className="btn btn-transparent text-white border border-light border-2 rounded-0 py-1 px-4 shadow">
-                            SUBSCRIBE
-                        </button>
+                    <Col xs={3} className="d-flex justify-content-end fs-2">
+                    <FontAwesomeIcon icon={faBars} />
                     </Col>
-                    <Col>
+                    <Col className='hello'>
                         <Nav className='d-flex justify-content-center gap-3 fw-bold pt-4'>
                             <Nav.Link className='text-decoration-none text-white' href="#">CATEGORY</Nav.Link>
                             <Nav.Link className='text-decoration-none text-white' href="#">BEST DEALS</Nav.Link>

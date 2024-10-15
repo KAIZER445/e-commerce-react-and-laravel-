@@ -50,3 +50,14 @@
 .Qwitcher_bold{
   font-family: Qwitcher_bold;
 }
+
+/* footer */
+
+.list_proper{
+  list-style: none;
+  padding: 0;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}

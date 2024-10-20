@@ -94,7 +94,7 @@ export default function JustForYou() {
                     {articles.length > 0 && (
                         <div className='d-flex justify-content-center'>
                             <button
-                                className='btn btn-transparent border border-3 border-danger text-danger rounded-0 fw-semibold'
+                                className='btn btn-transparent border border-3 border-danger text-danger rounded-0 fw-semibold loadmore'
                                 onClick={loadMoreArticles}
                                 disabled={loading}
                             >

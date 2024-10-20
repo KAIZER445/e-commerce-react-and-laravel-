@@ -23,6 +23,12 @@
 
 }
 
+@media(min-width: 992px) {
+  .navbar_adjust_sec {
+      display: none;
+  }
+
+}
 /* herocarousel */
 
 .imagefit-corousel {

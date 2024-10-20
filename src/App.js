@@ -1,18 +1,23 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarMain from './Components/NavbarMain';
 import Topbar from './Components/Topbar';
-// import Homepage from './Pages/Homepage';
+import Homepage from './Pages/Homepage';
 import FooterMain from './Components/FooterMain';
 import Productpage from './Pages/Productpage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <>
+      <BrowserRouter>
       <Topbar />
       <NavbarMain />
-      {/* <Homepage /> */}
-      <Productpage/>
+        <Routes>
+          <Route path='/' element={<Homepage/>}/>
+          <Route path='/Productpage' element={<Productpage/>}/>
+        </Routes>
       <FooterMain />
+      </BrowserRouter>
     </>
   );
 }

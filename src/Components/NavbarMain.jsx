@@ -5,6 +5,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import logo01 from '../images/logo-1.png';
 import Nav from 'react-bootstrap/Nav';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons/faCartShopping';
+import { Link } from 'react-router-dom';
 
 export default function NavbarMain() {
     return (
@@ -12,7 +14,7 @@ export default function NavbarMain() {
             <Container>
                 <Row className='align-items-center py-3'>
                     <Col xs={3}>
-                    <img src={logo01} alt="Logo" className='img-fluid' />
+                        <Link to="/"><img src={logo01} alt="Logo" className='img-fluid' /></Link>
                     </Col>
                     <Col xs={6} className="d-flex justify-content-center">
                         <div className='border border-1 border-white bg-transparent rounded-2 overflow-hidden w-100'>
@@ -20,8 +22,9 @@ export default function NavbarMain() {
                             <button className='bg-white text-dark border-0 p-2 w-25'><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
                         </div>
                     </Col>
-                    <Col xs={3} className="d-flex justify-content-end fs-2">
-                    <FontAwesomeIcon icon={faBars} />
+                    <Col xs={3} className="d-flex justify-content-end fs-4">
+                    <FontAwesomeIcon icon={faBars} className='me-4 navbar_adjust_sec'/>
+                    <FontAwesomeIcon icon={faCartShopping} />
                     </Col>
                     <Col className='navbar_adjust'>
                         <Nav className='d-flex justify-content-center gap-3 fw-bold pt-4'>

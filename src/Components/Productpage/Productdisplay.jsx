@@ -25,7 +25,7 @@ export default function Productdisplay() {
     <div className='mt-5'>
       <Container>
         <Row>
-          <div className='col-1'>
+          <div className='col-lg-1 col-3 '>
             <div className='border mb-3'>
               <img src={show2} alt="..." className='productdisplayimg img-fluid' />
             </div>
@@ -33,12 +33,12 @@ export default function Productdisplay() {
               <img src={show3} alt="..." className='productdisplayimg img-fluid' />
             </div>
           </div>
-          <div className='col-5'>
+          <div className='col-lg-5 col-9'>
             <div className='border'>
               <img src={show1} alt="..." className='productdisplayimg img-fluid' />
             </div>
           </div>
-          <div className='col-6'>
+          <div className='col-lg-6 col-12 mt-4 mt-lg-0'>
             <h4>Man Bag One Shoulder Multi-function Messenger Bag Password Lock Sports Bike Bag Waterproof USB Charging Port Anti-theft Chest BA</h4>
             <div className='d-flex align-items-center justify-content-between text-secondary'>
               <p className='mb-1'>Brand: <a href="/" className='text-decoration-none'>Visvim</a></p>

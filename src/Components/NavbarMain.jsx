@@ -30,8 +30,8 @@ export default function NavbarMain() {
                         <Nav className='d-flex justify-content-center gap-3 fw-bold pt-4'>
                             <Nav.Link className='text-decoration-none text-white' href="#">CATEGORY</Nav.Link>
                             <Nav.Link className='text-decoration-none text-white' href="#">BEST DEALS</Nav.Link>
-                            <Nav.Link className='text-decoration-none text-white' href="#">MALL</Nav.Link>
-                            <Nav.Link className='text-decoration-none text-white' href="#">TOP SELLERS</Nav.Link>
+                            <Nav.Link as={Link} to='/Explore-More' className='text-decoration-none text-white' href="#">EXPLORE MORE</Nav.Link>
+                            <Nav.Link className='text-decoration-none text-white' href="#">TRENDING</Nav.Link>
                             <Nav.Link className='text-decoration-none text-white' href="#">ABOUT US</Nav.Link>
                         </Nav>
                     </Col>

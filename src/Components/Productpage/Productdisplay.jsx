@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import show1 from '../../images/product_images/show-1.jpg'
 import show2 from '../../images/product_images/show-2.jpg'
@@ -20,6 +20,10 @@ export default function Productdisplay() {
       setCurrentQuantity(currentQuantity - 1)
     }
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='mt-5'>

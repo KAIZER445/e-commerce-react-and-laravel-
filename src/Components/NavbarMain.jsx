@@ -31,7 +31,6 @@ export default function NavbarMain() {
                             <Nav.Link className='text-decoration-none text-white' href="#">CATEGORY</Nav.Link>
                             <Nav.Link className='text-decoration-none text-white' href="#">BEST DEALS</Nav.Link>
                             <Nav.Link as={Link} to='/Explore-More' className='text-decoration-none text-white' href="#">EXPLORE MORE</Nav.Link>
-                            <Nav.Link className='text-decoration-none text-white' href="#">TRENDING</Nav.Link>
                             <Nav.Link className='text-decoration-none text-white' href="#">ABOUT US</Nav.Link>
                         </Nav>
                     </Col>
